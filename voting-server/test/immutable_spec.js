@@ -57,6 +57,7 @@ describe('immutability', () => {
     //   );
     // }
 
+    //using update to make code more concise
     function addMovie(currentState, movie) {
         return currentState.update('movies', movies => movies.push(movie));
       }
